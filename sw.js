@@ -1,7 +1,7 @@
 const CACHE_NAME = 'baljeet-portfolio-v3';
 const STATIC_ASSETS = [
   './',
-  './bts1.html',
+  './index.html',
   './style.css',
   './script.js',
   './manifest.json',
@@ -47,6 +47,6 @@ self.addEventListener('fetch', (event) => {
           return networkResponse;
         });
       });
-    }).catch(() => caches.match('./bts1.html'))
+    }).catch(() => caches.match('./index.html'))
   );
 });
