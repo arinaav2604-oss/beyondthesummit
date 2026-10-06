@@ -2,7 +2,7 @@
   "name": "Beyond the Summit | Seven Continents Property",
   "short_name": "Beyond The Summit",
   "description": "Seven Continents. One Tricolour. One Extraordinary Story. Official campaign and sponsorship platform for Baljeet Kaur.",
-  "start_url": "./bts1.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#040608",
   "theme_color": "#E9692A",
